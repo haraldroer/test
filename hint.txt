@@ -4,3 +4,12 @@ emacs README.md
 git add README.md
 git commit -m "Just a test of edit one file"
 git push
+
+git branch feature1 #creating new local branch
+
+git checkout -b feature2 #checking out remote branch
+
+emacs feature2.txt #new file in feature2
+git add feature2.txt
+
+git push -u origin --all #pushing the all branches to remote
