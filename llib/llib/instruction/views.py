@@ -27,7 +27,7 @@ def entry(request):
     # getting our template
     template = loader.get_template('entry.html')
 
-    
+
     # rendering the template in HttpResponse
     return HttpResponse(template.render(context, request))
 def index2(request):
