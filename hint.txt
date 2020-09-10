@@ -1,0 +1,6 @@
+git config --global user.email "harald.roer@gmail.com"
+git clone https://github.com/haraldroer/test.git
+emacs README.md
+git add README.md
+git commit -m "Just a test of edit one file"
+git push
