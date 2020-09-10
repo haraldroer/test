@@ -23,6 +23,13 @@ def index(request):
     # rendering the template in HttpResponse
     return HttpResponse(template.render(context, request))
 
+def entry(request):
+    # getting our template
+    template = loader.get_template('entry.html')
+
+    
+    # rendering the template in HttpResponse
+    return HttpResponse(template.render(context, request))
 def index2(request):
     #all obj
     max_id = Instruction.objects.all().count()
