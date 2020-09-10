@@ -18,8 +18,7 @@ def index(request):
     # creating the values to pass
     context = {
         'instruction': ins.text,
-
-}
+    }
     # rendering the template in HttpResponse
     return HttpResponse(template.render(context, request))
 
@@ -27,7 +26,9 @@ def entry(request):
     # getting our template
     template = loader.get_template('entry.html')
 
-
+    context = {
+        'instruction': 'test',
+    }
     # rendering the template in HttpResponse
     return HttpResponse(template.render(context, request))
 def index2(request):
