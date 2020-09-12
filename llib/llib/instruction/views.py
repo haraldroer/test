@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from llib.llib.models import Instruction
+from llib.instruction.models import Instruction
 from django.template import loader
 import random
 from django.http import JsonResponse
