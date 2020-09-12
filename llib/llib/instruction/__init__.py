@@ -1,1 +1,1 @@
-default_app_config = 'instruction.apps.MyAppConfig'
+default_app_config = 'llib.instruction.apps.MyAppConfig'
